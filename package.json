@@ -1,34 +1,32 @@
 {
-  "name": "jsql-superagent-plugin",
+  "name": "jsql-superagent",
   "version": "0.1.0",
-  "description": "React and Vue plugin with SuperAgent library to change sql queries to hash for JSQL.",
+  "description": "JSQL plugin for Superagent",
   "main": "jsql-superagent-plugin.min.js",
   "keywords": [
     "jsql",
     "jsql-it",
     "jsql-optimization",
-    "jsql-superagent",
-    "jsql-superagent-plugin"
+    "jsql-superagent"
   ],
-  "homepage": "http://jsql.it",
+  "homepage": "https://jsql.it",
   "author": "JSQL",
-  "license": "ISC",
+  "licenses": [
+    {
+      "type": "LicenseRef-LICENSE",
+      "url": "https://jsql.it/public-packages-license"
+    }
+  ],
   "dependencies": {
-    "jsql-core": "^1.1.7",
-    "npm-jsql": "latest",
-    "superagent": "^4.0.0"
+    "jsql-core": "^1.2.0",
+    "superagent": "latest"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
+  "scripts": {},
   "devDependencies": {
     "grunt": "^1.0.3",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-uglify-es": "^3.3.0"
+    "grunt-contrib-uglify-es": "github:gruntjs/grunt-contrib-uglify#harmony"
   }
 }
