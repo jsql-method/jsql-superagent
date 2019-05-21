@@ -1,8 +1,8 @@
 {
   "name": "jsql-superagent",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "JSQL plugin for Superagent",
-  "main": "jsql-superagent-plugin.min.js",
+  "main": "jsql-superagent.min.js",
   "keywords": [
     "jsql",
     "jsql-it",
