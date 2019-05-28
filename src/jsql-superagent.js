@@ -19,10 +19,12 @@ export default function JsqlService(config) {
 
     window.JSQL.prototype.request = function (requestUrl, requestData, requestHeaders) {
 
-        return  superagent
+        let srequest = superagent.set(requestHeaders);
+
+        return srequest
             .post(requestUrl)
-            .send(requestData)
-            .set(requestHeaders);
+            .send(requestData);
+
 
     };
 
