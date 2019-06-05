@@ -47,7 +47,7 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: '.',
-                        src: ['LICENSE.md', 'package.json'],
+                        src: ['LICENSE.md', 'package.json', 'jsql-superagent.d.ts'],
                         dest: './dist'
                     }
                 ]

@@ -3,6 +3,7 @@
   "version": "0.5.0",
   "description": "JSQL plugin for Superagent",
   "main": "jsql-superagent.min.js",
+  "typings": "jsql-superagent.d.ts",
   "keywords": [
     "jsql",
     "jsql-it",
