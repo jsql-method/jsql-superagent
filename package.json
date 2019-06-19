@@ -1,6 +1,6 @@
 {
   "name": "jsql-superagent",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "JSQL plugin for Superagent",
   "main": "jsql-superagent.min.js",
   "typings": "jsql-superagent.d.ts",
@@ -19,7 +19,7 @@
     }
   ],
   "dependencies": {
-    "jsql-core": "^1.7.0",
+    "jsql-core": "^1.8.0",
     "superagent": "5.0.5"
   },
   "scripts": {},
